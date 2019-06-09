@@ -1,0 +1,15 @@
+{
+    "name": "Duplicate tabs remover",
+    "version": "1.0",
+    "description": "Remove duplicate Chrome tabs",
+    "manifest_version": 2,
+    "author": "HoOz",
+    "browser_action": {
+        "default_icon": "icons/default.png"
+    },
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "permissions": ["tabs"]
+}
